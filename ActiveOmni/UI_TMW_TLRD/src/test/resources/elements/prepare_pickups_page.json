@@ -1,0 +1,13 @@
+{
+  "do_element_text": "xpath, //ion-row[@class='work-pickup-item-container row']",
+  "verify_Button_Not_Verified":"xpath, //button[@class='verifyButton verifyButton-with-alternate-contact button btnNotVerified']",
+  "verify_customer_id_button": "xpath, //button[contains(@class, 'verifyButton')]",
+  "complete_order_button": "cssSelector, #pickup-fulfillment-details-footer > div > div > button.positive-button.btn-block.inactive > span > div",
+  "pickup_customer_details": "xpath, //*[@id='pickup-customer-details-footer']/div/div/button[1]/span/div",
+  "reason_dropdown": "cssSelector, .ma-popover-content .button-inner",
+  "customer_no_show_text": "xpath, //div[contains(text(),'CUSTOMER NO SHOW')]",
+  "customer_show_purchased_text": "xpath,//div[contains(text(),'CUSTOMER SHOW -NO PURCHASE')]",
+  "customer_show_no_purchase_text": "xpath, //div[contains(text(),'CUSTOMER SHOW - PURCHASED')]",
+  "reason_ok_button": "xpath, //span[contains(text(),'OK')]",
+  "complete_order_ok_button": "xpath, //*[@id='OK']"
+}

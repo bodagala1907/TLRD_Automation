@@ -1,0 +1,10 @@
+{
+  "navbar_title": "id, navbar-title-1",
+  "filter_button": "xpath, //*[@id='work-fulfillment-list-btn-filter']/span",
+  "apply_button": "xpath, //span[contains(text(),'APPLY')]",
+  "clear_button": "xpath, //button[@id='pick-fulfillment-list-filter-popup-btn-clear']",
+  "search_field": "xpath, //*[@id='pick-fulfillment-list-filter-popup-input-search']/input",
+  "sub_title_text": "xpath, //span[contains(text(),'1 of max 10')]",
+  "start_picking_button": "xpath, //*[@id='create-pick-list-footer']/div/div/button/span/div",
+  "resume_paused_activity_button": "//*[@id='work-resume-list-footer']/div/div/button/span/div"
+}

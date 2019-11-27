@@ -1,0 +1,6 @@
+{
+  "barcode_text_field": "xpath, //input[@step='undefined']",
+  "search_button": "xpath, //button[@id='scan-order-id-btn-search']",
+  "picked_text": "xpath, //ion-item[@id='order-list-order-details-1']//div[@class='status-description sub-title-label'][contains(text(),'Picked')]",
+  "status_type_text": "xpath, //div[@class='status-description sub-title-label']"
+}

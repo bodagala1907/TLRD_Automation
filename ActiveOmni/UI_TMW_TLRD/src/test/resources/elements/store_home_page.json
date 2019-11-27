@@ -1,0 +1,8 @@
+{
+  "home_title": "id, navbar-title-1",
+  "store_number" : "xpath, //span[@class='label navbar-title-store']",
+  "prepare_pickups_link": "xpath, //*[@id='preparePickups-ui-fulfillment-home-l3']//ion-label",
+  "confirm_pickups_link": "xpath, //*[@id='confirmPickups-ui-fulfillment-home-l3']//ion-label",
+  "prepare_shipments_link": "xpath, //*[@id='prepareShipments-ui-fulfillment-home-l3']//ion-label",
+  "pack_shipments_link": "xpath, //*[@id='packShipments-ui-fulfillment-home-l3']//ion-label"
+}

@@ -1,0 +1,4 @@
+{
+  "search_store": "xpath, //input[@class='searchbar-input'] || cssSelector, .searchbar-input",
+  "select_store": "xpath, //div[@class='input-wrapper']//div//div"
+}

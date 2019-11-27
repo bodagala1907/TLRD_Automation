@@ -1,0 +1,18 @@
+{
+  "packing_barcode_field": "xpath, //*[@id='work-default-list-pack-barcode']/input",
+  "go_button": "xpath, //button[@id='work-default-list-pack-barcode-btngo']",
+  "scan_barcode_field": "xpath, //*[@id='pack-taskgroup-summary-barcode']/input",
+  "scan_barcode_go_button": "xpath, //*[@id='pack-taskgroup-summary-barcode-btngo']",
+  "delivery_method_text": "xpath, //div[contains(text(),'Delivery Method ShipToAddress')]",
+  "fullfillment_id": "xpath, //span[@id='fulfillment-details-fulfillment-id']",
+  "packages_text": "xpath, //div[@id='finish-pack-text-total-pkgs']",
+  "packed_units_text": "xpath, //div[@id='finish-pack-text-total-units']",
+  "package_number_text": "xpath, //ion-row[@class='fill absolute row']//ma-header//ion-col[1]",
+  "submit_print_button": "xpath, //ma-footer[@id='finish-pack-footer-tablet']//div[@class='btn-click-area']",
+  "submit_print_pkg_text": "xpath, //div[contains(text(),'SUBMIT & PRINT PACKAGE')]",
+  "retry_text": "xpath, //ion-col[contains(text(),'RETRY')]",
+  "internal_server_error_text": "xpath, //*[@id='getCollate-errors']/div[1]/div/ion-label/div",
+  "ok_button": "xpath, //button[@class='action-button']",
+  "button1": "cssSelector, .positive-button",
+  "taskgroup_button": "xpath, //button[@id='taskgroup-summary-select-new-cart']/span"
+}

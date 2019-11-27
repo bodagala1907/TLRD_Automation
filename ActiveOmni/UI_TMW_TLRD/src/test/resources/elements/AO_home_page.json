@@ -1,0 +1,5 @@
+{
+  "omni_enterprise_title" : "xpath, //span[contains(text(),'OMNI ENTERPRISE')]",
+  "store_tile" : "xpath, //div[@class='second-left tile']//div[@class='title'][contains(text(),'Store')]",
+  "fullfillment_link" : "xpath, //div[@class='second-left tile']//div[@class='list']//div//span[contains(text(),'Fulfillment')]"
+}

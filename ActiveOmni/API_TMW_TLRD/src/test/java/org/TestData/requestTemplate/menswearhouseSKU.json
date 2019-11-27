@@ -1,0 +1,48 @@
+{
+  "getallsku_scenario1": {
+    "RequestType": "GET",
+    "endPoint": "fulfillment/api/fulfillment/fulfillment/fulfillmentId/{FullfilmentNo}?Organization=TMW",
+    "pathParam": {
+      "FullfilmentNo": "12752"
+    },
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyT3JncyI6WyJUTVciXSwiZWRnZSI6MCwidXNlcl9uYW1lIjoiYWRtaW5AVE1XLmNvbSIsInNjb3BlIjpbIm9tbmkiLCJjb21wb25lbnQiXSwib3JnYW5pemF0aW9uIjoiVE1XIiwidXNlckxvY2F0aW9ucyI6W10sImV4cCI6MTU3MDU5ODY3OSwibG9jYWxlIjoiZW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1N5c3RlbUFkbWluIiwiUk9MRV9VU0VSIl0sImp0aSI6IjMyNzdlNzMxLWIzMTctNGIyOC1iMzJkLTcwZmZkNzJjNDgwZCIsImNsaWVudF9pZCI6Im9tbmljb21wb25lbnQuMS4wLjAiLCJ1c2VyVGltZVpvbmUiOm51bGx9.HFKFwRbZI5pfETr8J_zrsW27C0W7O3-0wJ0kthRTSs6flYqlLm7RXPycoj4LZPouOdhpQ1m1HhzJUIfp6UOXMfjzJRlZ8yPTmlgaFKZ2jFnvvbWYAFAYoNlIJ_koTq-DCEifM_8g8shKWm3JggB4LALcVhan2E9gd-CwO6AYsZpgbViRpqjxTabHy25MTzMRQOIp_xV8GirsEHtcI4rw2Wz4NEPeJQ2rGyop5auUtX8-She7WzvIJGRJ-0QC55kaCS7UUaTZLDDWZEPvKJtkWf6shUwhwYMJGJ_tuEFiDDC5naWAcuxvuDUywr6SGr6Sy6rEd45Kky2-zFRTwluNzw"
+    }
+  },
+  "getallsku_scenario2": {
+    "RequestType": "POST",
+    "endPoint": "/oauth/token?grant_type=password&username=saleem.syed@tailoredbrands.com&password=Test@231",
+    "queryParam": {
+      "username": "saleem.syed@tailoredbrands.com",
+      "password": "Test@231"
+    },
+    "auth":{
+  "user":"omnicomponent.1.0.0",
+  "pass":"b4s8rgTyg55XYNun"
+}
+  },
+  "getallsku_scenario3": {
+    "RequestType": "POST",
+    "endPoint": "/oauth/token?grant_type=password&username=admin@TMW.com&password=Password1!",
+    "queryParam": {
+      "username": "admin@TMW.com",
+      "password": "Password1!"
+    },
+    "auth":{
+      "user":"omnicomponent.1.0.0",
+      "pass":"b4s8rgTyg55XYNun"
+    }
+  },
+  "getallsku_scenario4": {
+    "RequestType": "POST",
+    "endPoint": "/fulfillment/api/fulfillment/fulfillment/save",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyT3JncyI6WyJUTVciXSwiZWRnZSI6MCwidXNlcl9uYW1lIjoiYWRtaW5AVE1XLmNvbSIsInNjb3BlIjpbIm9tbmkiLCJjb21wb25lbnQiXSwib3JnYW5pemF0aW9uIjoiVE1XIiwidXNlckxvY2F0aW9ucyI6W10sImV4cCI6MTU3MDU5ODY3OSwibG9jYWxlIjoiZW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1N5c3RlbUFkbWluIiwiUk9MRV9VU0VSIl0sImp0aSI6IjMyNzdlNzMxLWIzMTctNGIyOC1iMzJkLTcwZmZkNzJjNDgwZCIsImNsaWVudF9pZCI6Im9tbmljb21wb25lbnQuMS4wLjAiLCJ1c2VyVGltZVpvbmUiOm51bGx9.HFKFwRbZI5pfETr8J_zrsW27C0W7O3-0wJ0kthRTSs6flYqlLm7RXPycoj4LZPouOdhpQ1m1HhzJUIfp6UOXMfjzJRlZ8yPTmlgaFKZ2jFnvvbWYAFAYoNlIJ_koTq-DCEifM_8g8shKWm3JggB4LALcVhan2E9gd-CwO6AYsZpgbViRpqjxTabHy25MTzMRQOIp_xV8GirsEHtcI4rw2Wz4NEPeJQ2rGyop5auUtX8-She7WzvIJGRJ-0QC55kaCS7UUaTZLDDWZEPvKJtkWf6shUwhwYMJGJ_tuEFiDDC5naWAcuxvuDUywr6SGr6Sy6rEd45Kky2-zFRTwluNzw"
+    },
+    "body": {
+      "CreateOrder": "{\"ServiceLevelCode\": null,\"IsVASRequired\": \"false\",\"OrderCaptureDate\": \"2019-10-02T05:46:00.000\",\"ShipFromLocationId\": \"5408\",\"Extended\":{\"IsResidential\": \"false\",\"PerfectFitNumber\": null,\"PaymentMethod\": null,\"GiftMessage\": null},\"OrganizationId\": \"TMW\",\"Source\": \"CS\",\"FulfillmentId\": \"095206270\",\"FulfillmentStatusId\": \"1000.000\",\"FulfillmentAddress\": [{\"AddressTypeId\": {\"AddressTypeId\": \"Billing\"},\"Address\": {\"Email\": \"vk22@tmw.com\",\"FirstName\": \"Order70\",\"State\": \"CA\",\"Address2\": \"650 Avenue Of The Americas\",\"Address3\": null,\"PostalCode\": \"95131\",\"Country\": \"US\",\"LastName\": \"K\",\"Address1\": \"1 Main St\",\"City\": \"San Jose\",\"County\": null},\"FulfillmentAddressId\": \"1\"}],\"CustomerPhone\": null,\"IsGift\": \"false\",\"CustomerFirstName\": \"Order70\",\"CustomerEmail\": \"vk22@tmw.com\",\"FulfillmentLine\": [{\"ItemUnitPrice\": \"399.99\",\"WeightUOM\": \"LB\",\"IsHazmat\": \"false\",\"Extended\": {\"VasInstruction1\": null,\"VasInstruction4\": null,\"VasInstruction5\": null,\"Comments\": null,\"VasInstruction2\": null,\"VasInstruction3\": null,\"VasInstruction10\": null,\"VasTypeId1\": null,\"VasTypeId2\": null,\"VasTypeId3\": null,\"VasTypeId4\": null,\"VasTypeId10\": null,\"VasTypeId5\": null,\"VasInstruction8\": null,\"VasTypeId6\": null,\"VasInstruction9\": null,\"VasInstruction6\": null,\"VasTypeId7\": null,\"VasInstruction7\": null,\"VasTypeId8\": null,\"VasTypeId9\": null},\"OrderId\": \"39352430170\",\"ItemId\": \"TMW10CK40101\",\"ItemDescription\": \"CK XFIT BLAZER\",\"ItemUnitWeight\": \"1\",\"SupplyTypeId\": \"OnHand\",\"FulfillmentLineStatusId\": \"1000.000\",\"ItemColor\": \"01\",\"FulfillmentLineId\": \"1\",\"OrderLineId\": \"39352466370\",\"ItemStyle\": \"10CK\",\"PipelineId\": \"FULFILLMENT_EXECUTION\",\"ItemSize\": \"401\",\"OrderedQty\": \"1\",\"AsnId\": null,\"QuantityUom\": \"U\"}],\"OrderTypeId\": \"MWD\",\"DocTypeId\": \"Customer Order\",\"ShipToLocationId\": \"5408\",\"IsReturnLabelRequired\": \"false\",\"FulfillmentPackages\": [{\"ShipToAddress\": {\"Email\": null,\"FirstName\": \"Order70\",\"State\": \"NY\",\"Phone\": \"408-762-8084\",\"Address2\": \"The Men's Wearhouse\",\"Address3\": null,\"PostalCode\": \"10011\",\"Country\": \"US\",\"LastName\": \"K\",\"Address1\": \"650 AVENUE OF THE AMERICAS\",\"City\": \"NEW YORK\",\"County\": \"NEW YORK\"},\"ServiceLevelCode\": \"UGRD\",\"ShipToLocationId\": \"5408\",\"TrackingNumber\": null,\"ShippedDate\": null,\"PackageDetail\": {\"FulfillmentLineId\": \"1\",\"Quantity\": {\"UOM\": {\"Code\": \"U\"},\"Qty\": \"1\"},\"PackageDetailId\": null,\"ItemId\": \"TMW10CK40101\",\"FulfillmentId\": \"095206270\"},\"ShipFromLocationId\": \"5408\",\"PackageStatus\": \"1000.000\",\"PackageTypeId\": null,\"FulfillmentId\": null,\"CurrentLocationId\": \"5408\",\"ReceiptType\": \"ReceiveByPackage\",\"CarrierCode\": null,\"PackageId\": null,\"DeliveryType\": null}],\"DeliveryMethodId\": \"ShipToStore\",\"DestinationActionId\": \"PICKUP\",\"ShipViaId\": \"UGRD\",\"ShippingDueDate\": \"2019-10-05T23:59:00.000\",\"CustomerLastName\": \"K\",\"DeliveryDueDate\": \"2019-10-05T23:58:00.000\",\"CarrierCode\": null,\"FulfillmentLineInstruction\": [{\"InstructionText\": null}]}"
+    }
+  }
+}

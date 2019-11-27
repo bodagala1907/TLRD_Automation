@@ -1,0 +1,145 @@
+{
+    "ServiceLevelCode": null,
+    "IsVASRequired": "false",
+    "OrderCaptureDate": "#{OrderCaptureDate}",
+    "ShipFromLocationId": "5408",
+    "Extended": {
+        "IsResidential": "false",
+        "PerfectFitNumber": null,
+        "PaymentMethod": null,
+        "GiftMessage": null
+    },
+    "OrganizationId": "TMW",
+    "Source": "CS",
+    "FulfillmentId": "#{FulfillmentId}",
+    "FulfillmentStatusId": "1000.000",
+    "FulfillmentAddress": [
+        {
+            "AddressTypeId": {
+                "AddressTypeId": "Billing"
+            },
+            "Address": {
+                "Email": "#{email}",
+                "FirstName": "#{FirstName}",
+                "State": "CA",
+                "Address2": "650 Avenue Of The Americas",
+                "Address3": null,
+                "PostalCode": "95131",
+                "Country": "US",
+                "LastName": "#{LastName}",
+                "Address1": "1 Main St",
+                "City": "San Jose",
+                "County": null
+            },
+            "FulfillmentAddressId": "1"
+        }
+    ],
+    "CustomerPhone": null,
+    "IsGift": "false",
+    "CustomerFirstName": "#{FirstName}",
+    "CustomerEmail": "#{email}",
+    "FulfillmentLine": [
+        {
+            "ItemUnitPrice": "399.99",
+            "WeightUOM": "LB",
+            "IsHazmat": "false",
+            "Extended": {
+                "VasInstruction1": null,
+                "VasInstruction4": null,
+                "VasInstruction5": null,
+                "Comments": null,
+                "VasInstruction2": null,
+                "VasInstruction3": null,
+                "VasInstruction10": null,
+                "VasTypeId1": null,
+                "VasTypeId2": null,
+                "VasTypeId3": null,
+                "VasTypeId4": null,
+                "VasTypeId10": null,
+                "VasTypeId5": null,
+                "VasInstruction8": null,
+                "VasTypeId6": null,
+                "VasInstruction9": null,
+                "VasInstruction6": null,
+                "VasTypeId7": null,
+                "VasInstruction7": null,
+                "VasTypeId8": null,
+                "VasTypeId9": null
+            },
+            "OrderId": "#{OrderId}",
+            "ItemId": "TMW10CK40101",
+            "ItemDescription": "CK XFIT BLAZER",
+            "ItemUnitWeight": "1",
+            "SupplyTypeId": "OnHand",
+            "FulfillmentLineStatusId": "1000.000",
+            "ItemColor": "01",
+            "FulfillmentLineId": "1",
+            "OrderLineId": "#{OrderId}",
+            "ItemStyle": "10CK",
+            "PipelineId": "FULFILLMENT_EXECUTION",
+            "ItemSize": "401",
+            "OrderedQty": "1",
+            "AsnId": null,
+            "QuantityUom": "U"
+        }
+    ],
+    "OrderTypeId": "MWD",
+    "DocTypeId": "Customer Order",
+    "ShipToLocationId": "5408",
+    "IsReturnLabelRequired": "false",
+    "FulfillmentPackages": [
+        {
+            "ShipToAddress": {
+                "Email": null,
+                "FirstName": "#{FirstName}",
+                "State": "NY",
+                "Phone": "408-762-8084",
+                "Address2": "The Men's Wearhouse",
+                "Address3": null,
+                "PostalCode": "10011",
+                "Country": "US",
+                "LastName": "#{LastName}",
+                "Address1": "650 AVENUE OF THE AMERICAS",
+                "City": "NEW YORK",
+                "County": "NEW YORK"
+            },
+            "ServiceLevelCode": "UGRD",
+            "ShipToLocationId": "5408",
+            "TrackingNumber": null,
+            "ShippedDate": null,
+            "PackageDetail": {
+                "FulfillmentLineId": "1",
+                "Quantity": {
+                    "UOM": {
+                        "Code": "U"
+                    },
+                    "Qty": "1"
+                },
+                "PackageDetailId": null,
+                "ItemId": "TMW10CK40101",
+                "FulfillmentId": "#{FulfillmentId}"
+            },
+            "ShipFromLocationId": "5408",
+            "PackageStatus": "1000.000",
+            "PackageTypeId": null,
+            "FulfillmentId": null,
+            "CurrentLocationId": "5408",
+            "ReceiptType": "ReceiveByPackage",
+            "CarrierCode": null,
+            "PackageId": null,
+            "DeliveryType": null
+        }
+    ],
+    "DeliveryMethodId": "ShipToStore",
+    "DestinationActionId": "PICKUP",
+    "ShipViaId": "UGRD",
+    "ShippingDueDate": "#{ShippingDueDate}",
+    "CustomerLastName": "#{LastName}",
+    "DeliveryDueDate": "#{DeliveryDueDate}",
+    "CarrierCode": null,
+    "FulfillmentLineInstruction": [
+        {
+            "InstructionText": null
+        }
+    ]
+}

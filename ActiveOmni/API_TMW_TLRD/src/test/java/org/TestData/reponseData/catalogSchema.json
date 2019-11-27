@@ -1,0 +1,27 @@
+{
+  "resourceId": "http://solr.tmw.com/search/resources/store/12752/productview/byId/700835434",
+  "inv_level_12751_oi": "HIGH",
+  "hasSingleSKU": false,
+  "price": [
+    {
+      "description": "L",
+      "value": "399.99",
+      "usage": "Display",
+      "currency": "USD"
+    },
+    {
+      "description": "I",
+      "value": "399.99",
+      "usage": "Offer",
+      "currency": "USD"
+    }
+  ],
+  "parentCatalogEntryID": "700835155",
+  "catalogEntryTypeCode": "ItemBean",
+  "xIsAvailableOnline": "1",
+  "inv_strlocqty_12751_oi": "96.0",
+  "buyable": "true",
+  "uniqueID": "700835434",
+  "storeID": "10002",
+  "partNumber": "TMW13ZG36175"
+}

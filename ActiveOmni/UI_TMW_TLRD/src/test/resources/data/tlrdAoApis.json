@@ -1,0 +1,58 @@
+{
+    "auth_api_endpoint": {
+        "RequestType": "POST",
+        "endPoint": "/oauth/token",
+        "queryParam": {
+            "grant_type": "password",
+            "username": "user",
+            "password": "pass"
+        },
+        "auth": {
+            "user": "user",
+            "pass": "pass"
+        }
+    },
+    "create_order_api": {
+        "RequestType": "POST",
+        "endPoint": "/fulfillment/api/fulfillment/fulfillment/save",
+        "header": {
+            "Content-Type": "application/json",
+            "Authorization": "AccessToken"
+        },
+        "body": {
+            "CreateOrder": "orderJson"
+        }
+    },
+    "get_fulfillment_status": {
+        "RequestType": "GET",
+        "endPoint": "/fulfillment/api/fulfillment/fulfillment/fulfillmentId/{FullfilmentNo}",
+        "pathParam": {
+            "FullfilmentNo": "FullfilmentNo"
+        },
+        "header": {
+            "Content-Type": "application/json",
+            "Authorization": "AccessToken"
+        }
+    },
+    "get_TaskgroupId": {
+        "RequestType": "GET",
+        "endPoint": "/fulfillment/api/fulfillment/taskGroup/list/inProgressTaskGroups",
+       "header": {
+            "Content-Type": "application/json",
+            "Authorization": "AccessToken",
+            "Location":"5408"
+        }
+    },
+    "cancel_TaskgroupId": {
+        "RequestType": "POST",
+        "endPoint": "/fulfillment/api/fulfillment/taskGroup/cancelTaskGroup",
+        "header": {
+            "Content-Type": "application/json",
+            "Authorization": "AccessToken",
+            "Location":"5408"
+        },
+        "body": {
+            "TaskGroupId": "orderJson"
+        }
+    }
+}

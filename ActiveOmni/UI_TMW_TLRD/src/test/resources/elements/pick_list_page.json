@@ -1,0 +1,16 @@
+{
+  "pick_list_title": "id, navbar-title-1 || xpath, //div[contains(text(),'PICK LIST')]",
+  "print_pick_list_button": "xpath, //*[@id='list-footer']/div/div/button/span/div",
+  "reject_item_button": "xpath, //*[@id='item-details-footer']/div/div/button[1]",
+  "pick_next_button":"xpath, //*[@id='item-details-footer']/div/div/button[2]",
+  "barcode_text_field": "xpath, //*[@id='pick-item-dtls-barcode']/input",
+  "go_button": "id, pick-item-dtls-btngo",
+  "almost_done_text": "xpath, /*[@id='neutral']/div/review-summary-popup/div/div[2]/span",
+  "back_to_list_button": "xpath, //*[@id='pick-list-btn-goback']",
+  "units_picked": "xpath, //*[@id='neutral']/div/review-summary-popup/div/div[6]/div[2]/span[2]",
+  "submit_button": "xpath, //*[@id='pick-list-btn-submit']",
+  "success_message": "xpath, //p[@class='pick-interstitial-messages']",
+  "prepare_pickup_button": "xpath, //*[@id='pick-interstitial-btn-pick']/span",
+  "home_button": "xpath, //*[@id='pick-interstitial-btn-home']/span",
+  "units_packed": "xpath, //div[@class='accordion-header-quantity']//span[2]"
+}

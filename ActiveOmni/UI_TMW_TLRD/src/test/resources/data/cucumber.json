@@ -1,0 +1,1612 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T11:20:40.456Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: D:\\Proje\\Central\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:147)\r\n\tat com.nisum.framework.runner.WebDriverManager.setDriver(WebDriverManager.java:113)\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.beforeScenario(Hooks.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 205365300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify user is able to process the ROPIS order",
+        "description": "",
+        "id": "tlrd-omni-enterprise-test-feature;verify-user-is-able-to-process-the-ropis-order;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.afterScenario(Hooks.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 1755100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I visit the Omni Enterprise website as a registered user",
+            "match": {
+              "location": "ActiveOmni_UI.iVisitTheOmniEnterpriseWebsiteAsARegisteredUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to store home page by creating an order with below params:",
+            "match": {
+              "location": "ActiveOmni_UI.iNavigatedToStoreHomePageByCreatingAnOrderWithBelowParams(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "order_type",
+                  "address_type",
+                  "shipMethod_type",
+                  "line_type",
+                  "gift_message"
+                ]
+              },
+              {
+                "cells": [
+                  "ROPIS",
+                  "apo_addresses",
+                  "APO",
+                  "multiple",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I navigate to \"Prepare Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I search with the DO number",
+            "match": {
+              "location": "ActiveOmni_UI.iSearchWithTheDONumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete the process of \"ROPIS\" from pick list page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROPIS",
+                  "offset": 27
+                }
+              ],
+              "location": "ActiveOmni_UI.iCompleteTheProcessOfFromPickListPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I navigate to \"Confirm Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search with the fulfillment id to verify the status as \"Picked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picked",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6200,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select the DO for completing the confirm pick up",
+            "match": {
+              "location": "ActiveOmni_UI.iSelectTheDOForCompletingTheConfirmPickUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search with the fulfillment id to verify the status as \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancelled",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@project_omni_ropis"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-26T11:20:40.672Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: D:\\Proje\\Central\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:147)\r\n\tat com.nisum.framework.runner.WebDriverManager.setDriver(WebDriverManager.java:113)\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.beforeScenario(Hooks.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 3174800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify user is able to process the ROPIS order",
+        "description": "",
+        "id": "tlrd-omni-enterprise-test-feature;verify-user-is-able-to-process-the-ropis-order;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.afterScenario(Hooks.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 79500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I visit the Omni Enterprise website as a registered user",
+            "match": {
+              "location": "ActiveOmni_UI.iVisitTheOmniEnterpriseWebsiteAsARegisteredUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to store home page by creating an order with below params:",
+            "match": {
+              "location": "ActiveOmni_UI.iNavigatedToStoreHomePageByCreatingAnOrderWithBelowParams(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "order_type",
+                  "address_type",
+                  "shipMethod_type",
+                  "line_type",
+                  "gift_message"
+                ]
+              },
+              {
+                "cells": [
+                  "ROPIS",
+                  "forty_eight_addresses",
+                  "Express",
+                  "single",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I navigate to \"Prepare Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I search with the DO number",
+            "match": {
+              "location": "ActiveOmni_UI.iSearchWithTheDONumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete the process of \"ROPIS\" from pick list page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROPIS",
+                  "offset": 27
+                }
+              ],
+              "location": "ActiveOmni_UI.iCompleteTheProcessOfFromPickListPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I navigate to \"Confirm Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search with the fulfillment id to verify the status as \"Picked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picked",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select the DO for completing the confirm pick up",
+            "match": {
+              "location": "ActiveOmni_UI.iSelectTheDOForCompletingTheConfirmPickUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search with the fulfillment id to verify the status as \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancelled",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@project_omni_ropis"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-26T11:20:40.682Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: D:\\Proje\\Central\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:147)\r\n\tat com.nisum.framework.runner.WebDriverManager.setDriver(WebDriverManager.java:113)\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.beforeScenario(Hooks.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 4848500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify user is able to process the ROPIS order",
+        "description": "",
+        "id": "tlrd-omni-enterprise-test-feature;verify-user-is-able-to-process-the-ropis-order;;4",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.afterScenario(Hooks.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 80400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I visit the Omni Enterprise website as a registered user",
+            "match": {
+              "location": "ActiveOmni_UI.iVisitTheOmniEnterpriseWebsiteAsARegisteredUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to store home page by creating an order with below params:",
+            "match": {
+              "location": "ActiveOmni_UI.iNavigatedToStoreHomePageByCreatingAnOrderWithBelowParams(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "order_type",
+                  "address_type",
+                  "shipMethod_type",
+                  "line_type",
+                  "gift_message"
+                ]
+              },
+              {
+                "cells": [
+                  "ROPIS",
+                  "us_territories",
+                  "us_territories",
+                  "multiple",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I navigate to \"Prepare Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I search with the DO number",
+            "match": {
+              "location": "ActiveOmni_UI.iSearchWithTheDONumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete the process of \"ROPIS\" from pick list page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROPIS",
+                  "offset": 27
+                }
+              ],
+              "location": "ActiveOmni_UI.iCompleteTheProcessOfFromPickListPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I navigate to \"Confirm Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search with the fulfillment id to verify the status as \"Picked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picked",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select the DO for completing the confirm pick up",
+            "match": {
+              "location": "ActiveOmni_UI.iSelectTheDOForCompletingTheConfirmPickUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search with the fulfillment id to verify the status as \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancelled",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@project_omni_ropis"
+          }
+        ]
+      }
+    ],
+    "name": "TLRD Omni Enterprise test feature",
+    "description": "",
+    "id": "tlrd-omni-enterprise-test-feature",
+    "keyword": "Feature",
+    "uri": "file:features/ShipToStoreROPIS.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T11:20:40.691Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: D:\\Proje\\Central\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:147)\r\n\tat com.nisum.framework.runner.WebDriverManager.setDriver(WebDriverManager.java:113)\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.beforeScenario(Hooks.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 3648400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify user is able to process the ROPIS order",
+        "description": "",
+        "id": "tlrd-omni-enterprise-test-feature;verify-user-is-able-to-process-the-ropis-order;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.afterScenario(Hooks.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 76500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I visit the Omni Enterprise website as a registered user",
+            "match": {
+              "location": "ActiveOmni_UI.iVisitTheOmniEnterpriseWebsiteAsARegisteredUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to store home page by creating an order with below params:",
+            "match": {
+              "location": "ActiveOmni_UI.iNavigatedToStoreHomePageByCreatingAnOrderWithBelowParams(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "order_type",
+                  "address_type",
+                  "shipMethod_type",
+                  "line_type"
+                ]
+              },
+              {
+                "cells": [
+                  "ROPIS",
+                  "forty_eight_addresses",
+                  "Standard",
+                  "single"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I navigate to \"Prepare Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I search with the DO number",
+            "match": {
+              "location": "ActiveOmni_UI.iSearchWithTheDONumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete the process of \"ROPIS\" from pick list page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROPIS",
+                  "offset": 27
+                }
+              ],
+              "location": "ActiveOmni_UI.iCompleteTheProcessOfFromPickListPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I navigate to \"Confirm Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search with the fulfillment id to verify the status as \"Picked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picked",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select the DO for completing the confirm pick up",
+            "match": {
+              "location": "ActiveOmni_UI.iSelectTheDOForCompletingTheConfirmPickUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search with the fulfillment id to verify the status as \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancelled",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@project_omni_ropis"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-26T11:20:40.697Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: D:\\Proje\\Central\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:147)\r\n\tat com.nisum.framework.runner.WebDriverManager.setDriver(WebDriverManager.java:113)\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.beforeScenario(Hooks.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 5356700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify user is able to process the ROPIS order",
+        "description": "",
+        "id": "tlrd-omni-enterprise-test-feature;verify-user-is-able-to-process-the-ropis-order;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.afterScenario(Hooks.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 74200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I visit the Omni Enterprise website as a registered user",
+            "match": {
+              "location": "ActiveOmni_UI.iVisitTheOmniEnterpriseWebsiteAsARegisteredUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to store home page by creating an order with below params:",
+            "match": {
+              "location": "ActiveOmni_UI.iNavigatedToStoreHomePageByCreatingAnOrderWithBelowParams(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "order_type",
+                  "address_type",
+                  "shipMethod_type",
+                  "line_type"
+                ]
+              },
+              {
+                "cells": [
+                  "ROPIS",
+                  "alaska_addresses",
+                  "Standard",
+                  "multiple"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I navigate to \"Prepare Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I search with the DO number",
+            "match": {
+              "location": "ActiveOmni_UI.iSearchWithTheDONumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete the process of \"ROPIS\" from pick list page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROPIS",
+                  "offset": 27
+                }
+              ],
+              "location": "ActiveOmni_UI.iCompleteTheProcessOfFromPickListPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I navigate to \"Confirm Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search with the fulfillment id to verify the status as \"Picked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picked",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select the DO for completing the confirm pick up",
+            "match": {
+              "location": "ActiveOmni_UI.iSelectTheDOForCompletingTheConfirmPickUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search with the fulfillment id to verify the status as \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancelled",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@project_omni_ropis"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-26T11:20:40.707Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: D:\\Proje\\Central\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:147)\r\n\tat com.nisum.framework.runner.WebDriverManager.setDriver(WebDriverManager.java:113)\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.beforeScenario(Hooks.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 3797000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify user is able to process the ROPIS order",
+        "description": "",
+        "id": "tlrd-omni-enterprise-test-feature;verify-user-is-able-to-process-the-ropis-order;;4",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.afterScenario(Hooks.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 92800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I visit the Omni Enterprise website as a registered user",
+            "match": {
+              "location": "ActiveOmni_UI.iVisitTheOmniEnterpriseWebsiteAsARegisteredUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to store home page by creating an order with below params:",
+            "match": {
+              "location": "ActiveOmni_UI.iNavigatedToStoreHomePageByCreatingAnOrderWithBelowParams(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "order_type",
+                  "address_type",
+                  "shipMethod_type",
+                  "line_type"
+                ]
+              },
+              {
+                "cells": [
+                  "ROPIS",
+                  "puerto_addresses",
+                  "Standard",
+                  "single"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I navigate to \"Prepare Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I search with the DO number",
+            "match": {
+              "location": "ActiveOmni_UI.iSearchWithTheDONumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete the process of \"ROPIS\" from pick list page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROPIS",
+                  "offset": 27
+                }
+              ],
+              "location": "ActiveOmni_UI.iCompleteTheProcessOfFromPickListPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I navigate to \"Confirm Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1800,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search with the fulfillment id to verify the status as \"Picked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picked",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select the DO for completing the confirm pick up",
+            "match": {
+              "location": "ActiveOmni_UI.iSelectTheDOForCompletingTheConfirmPickUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search with the fulfillment id to verify the status as \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancelled",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@project_omni_ropis"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-26T11:20:40.715Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: D:\\Proje\\Central\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:147)\r\n\tat com.nisum.framework.runner.WebDriverManager.setDriver(WebDriverManager.java:113)\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.beforeScenario(Hooks.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 3154000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify user is able to process the ROPIS order",
+        "description": "",
+        "id": "tlrd-omni-enterprise-test-feature;verify-user-is-able-to-process-the-ropis-order;;5",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nisum.napt.uiautomation.stepdefinitions.Hooks.afterScenario(Hooks.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+              "duration": 72800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I visit the Omni Enterprise website as a registered user",
+            "match": {
+              "location": "ActiveOmni_UI.iVisitTheOmniEnterpriseWebsiteAsARegisteredUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to store home page by creating an order with below params:",
+            "match": {
+              "location": "ActiveOmni_UI.iNavigatedToStoreHomePageByCreatingAnOrderWithBelowParams(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "order_type",
+                  "address_type",
+                  "shipMethod_type",
+                  "line_type"
+                ]
+              },
+              {
+                "cells": [
+                  "ROPIS",
+                  "us_territories",
+                  "Standard",
+                  "multiple"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I navigate to \"Prepare Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I search with the DO number",
+            "match": {
+              "location": "ActiveOmni_UI.iSearchWithTheDONumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete the process of \"ROPIS\" from pick list page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROPIS",
+                  "offset": 27
+                }
+              ],
+              "location": "ActiveOmni_UI.iCompleteTheProcessOfFromPickListPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be navigated to the store home page",
+            "match": {
+              "location": "ActiveOmni_UI.iShouldBeNavigatedToTheStoreHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I navigate to \"Confirm Pickups\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Pickups",
+                  "offset": 15
+                }
+              ],
+              "location": "ActiveOmni_UI.iNavigateToPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search with the fulfillment id to verify the status as \"Picked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Picked",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select the DO for completing the confirm pick up",
+            "match": {
+              "location": "ActiveOmni_UI.iSelectTheDOForCompletingTheConfirmPickUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search with the fulfillment id to verify the status as \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancelled",
+                  "offset": 58
+                }
+              ],
+              "location": "ActiveOmni_UI.iSearchWithTheFulfillmentIdToVerifyTheStatusAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@project_omni_ropis"
+          }
+        ]
+      }
+    ],
+    "name": "TLRD Omni Enterprise test feature",
+    "description": "",
+    "id": "tlrd-omni-enterprise-test-feature",
+    "keyword": "Feature",
+    "uri": "file:features/TmwAoOrdersProcessing.feature",
+    "tags": []
+  }
+]

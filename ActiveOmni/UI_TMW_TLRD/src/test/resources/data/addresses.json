@@ -1,0 +1,335 @@
+{
+    "forty_eight_addresses": [
+        {
+            "address_line_1": "170 O'Farrell Street",
+            "address_line_2": "",
+            "address_city": "San Francisco",
+            "address_state": "CA",
+            "address_zip_code": "94102",
+            "phone_area_code": "415",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "858 Broad St",
+            "address_line_2": "",
+            "address_city": "Newark",
+            "address_state": "NJ",
+            "address_zip_code": "07102",
+            "phone_area_code": "305",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "2399 Cottman Ave",
+            "address_line_2": "",
+            "address_city": "Philadelphia",
+            "address_state": "PA",
+            "address_zip_code": "19149",
+            "phone_area_code": "484",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "2901 S Capital of Texas Hwy",
+            "address_line_2": "Apt 100",
+            "address_city": "Austin",
+            "address_state": "TX",
+            "address_zip_code": "78746",
+            "phone_area_code": "512",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "9509 Destiny USA Dr",
+            "address_line_2": "",
+            "address_city": "SYRACUSE",
+            "address_state": "NY",
+            "address_zip_code": "13204",
+            "phone_area_code": "505",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "808 River Street",
+            "address_line_2": "",
+            "address_city": "Decorah",
+            "address_state": "IA",
+            "address_zip_code": "52101",
+            "phone_area_code": "415",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "7480 Birdwood Ave",
+            "address_line_2": "apt 2",
+            "address_city": "West McLean",
+            "address_state": "VA",
+            "address_zip_code": "22102",
+            "phone_area_code": "703",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "1320 N MCQUEEN RD APT 116",
+            "address_line_2": "",
+            "address_city": "CHANDLER",
+            "address_state": "AZ",
+            "address_zip_code": "85225",
+            "phone_area_code": "415",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "6600 Menaul Blvd NE",
+            "address_line_2": "Apt 22",
+            "address_city": "Albuquerque",
+            "address_state": "NM",
+            "address_zip_code": "87110",
+            "phone_area_code": "505",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "5100 Meadowood Mall Cir",
+            "address_line_2": "",
+            "address_city": "Reno",
+            "address_state": "NV",
+            "address_zip_code": "89502",
+            "phone_area_code": "775",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "2101 Duluth Hwy",
+            "address_line_2": "",
+            "address_city": "Duluth",
+            "address_state": "GA",
+            "address_zip_code": "30097",
+            "phone_area_code": "415",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "54 E Main St",
+            "address_line_2": "",
+            "address_city": "Walla Walla",
+            "address_state": "WA",
+            "address_zip_code": "99362",
+            "phone_area_code": "509",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "726 Connecticut Avenue",
+            "address_line_2": "",
+            "address_city": "Norwalk",
+            "address_state": "CT",
+            "address_zip_code": "06854",
+            "phone_area_code": "203",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "343 Broad Street",
+            "address_line_2": "",
+            "address_city": "Providence",
+            "address_state": "RI",
+            "address_zip_code": "02907",
+            "phone_area_code": "401",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "1550 St Louis Galleria St",
+            "address_line_2": "",
+            "address_city": "Saint Louis",
+            "address_state": "MO",
+            "address_zip_code": "63117",
+            "phone_area_code": "314",
+            "country": "Australia",
+            "country_code": "AU"
+        },
+        {
+            "address_line_1": "PO BOX 4127",
+            "address_line_2": "apt 100",
+            "address_city": "Downtown",
+            "address_state": "NY",
+            "address_zip_code": "13902",
+            "phone_area_code": "505",
+            "country": "United States",
+            "country_code": "US"
+        }
+    ],
+    "alaska_addresses": [
+        {
+            "address_line_1": "320 W 5th Ave d55",
+            "address_line_2": "",
+            "address_city": "Anchorage",
+            "address_state": "AK",
+            "address_zip_code": "99501",
+            "phone_area_code": "505",
+            "country": "United States",
+            "country_code": "US"
+        }
+    ],
+    "apo_addresses": [
+        {
+            "address_line_1": "#1 PSC 103 BOX 653",
+            "address_line_2": "",
+            "address_city": "APO",
+            "address_state": "Armed Forces",
+            "address_zip_code": "09603",
+            "phone_area_code": "000",
+            "country": "",
+            "country_code": ""
+        }
+    ],
+    "fpo_addresses": [
+        {
+            "address_line_1": "#1 Unit 9999 Box 999",
+            "address_line_2": "",
+            "address_city": "FPO",
+            "address_state": "AP",
+            "address_zip_code": "96691",
+            "phone_area_code": "000",
+            "country": "",
+            "country_code": ""
+        }
+    ],
+    "hawaii_addresses": [
+        {
+            "address_line_1": "77 Sea View Cir",
+            "address_line_2": "",
+            "address_city": "Kailua-Kona",
+            "address_state": "HI",
+            "address_zip_code": "96740",
+            "phone_area_code": "808",
+            "country": "United States",
+            "country_code": "US"
+        }
+    ],
+    "puerto_addresses": [
+        {
+            "address_line_1": "B7 CALLE TABONUCO STE 1105",
+            "address_line_2": "",
+            "address_city": "Guaynabo",
+            "address_state": "PR",
+            "address_zip_code": "00968",
+            "phone_area_code": "415",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "1045 Ashford Avenue",
+            "address_line_2": "",
+            "address_city": "San Juan",
+            "address_state": "Puerto Rico",
+            "address_zip_code": "00907",
+            "phone_area_code": "408",
+            "country": "United States",
+            "country_code": "US"
+        }
+    ],
+    "us_territories": [
+        {
+            "address_line_1": "4298 Millenia Blvd",
+            "address_line_2": "",
+            "address_city": "Orlando",
+            "address_state": "FL",
+            "address_zip_code": "32839",
+            "phone_area_code": "415",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "700 Friendly Center Rd",
+            "address_line_2": "",
+            "address_city": "Greensboro",
+            "address_state": "NC",
+            "address_zip_code": "27408",
+            "phone_area_code": "336",
+            "country": "United States",
+            "country_code": "US"
+        },
+        {
+            "address_line_1": "219 SHEFFIELD CENTER",
+            "address_line_2": "",
+            "address_city": "LORAIN",
+            "address_state": "OH",
+            "address_zip_code": "44055",
+            "phone_area_code": "775",
+            "country": "United States",
+            "country_code": "US"
+        }
+    ],
+    "iship_address": [
+        {
+            "address_line_1": "Natasha Apartments",
+            "address_line_2": "Domlur",
+            "address_city": "Bangalore",
+            "address_state": "Karnataka",
+            "address_zip_code": "560071",
+            "phone_area_code": "80",
+            "country": "India",
+            "country_code": "IN"
+        },
+        {
+            "address_line_1": "27 RUE PASTEUR",
+            "address_line_2": "",
+            "address_city": "CABOURG",
+            "address_state": "",
+            "address_zip_code": "14390",
+            "phone_area_code": "1223",
+            "country": "France",
+            "country_code": "FN"
+        },
+        {
+            "address_line_1": "Schulstrasse 4",
+            "address_line_2": "",
+            "address_city": "Bad Oyenhausen",
+            "address_state": "",
+            "address_zip_code": "32547",
+            "phone_area_code": "32545",
+            "country": "Germany",
+            "country_code": "DE"
+        },
+        {
+            "address_line_1": "Manor Farm Barns",
+            "address_line_2": "Fox Road",
+            "address_city": "NORWICH",
+            "address_state": "",
+            "address_zip_code": "NR14 7PZ",
+            "phone_area_code": "1603",
+            "country": "United Kingdom",
+            "country_code": "GB"
+        },
+        {
+            "address_line_1": "17 Quan Cheng Road",
+            "address_line_2": "",
+            "address_city": "Jinan",
+            "address_state": "NE",
+            "address_zip_code": "250000",
+            "phone_area_code": "531",
+            "country": "China",
+            "country_code": "CN"
+        },
+        {
+            "address_line_1": "1550 St Louis Galleria St",
+            "address_line_2": "",
+            "address_city": "Saint Louis",
+            "address_state": "MO",
+            "address_zip_code": "63117",
+            "phone_area_code": "314",
+            "country": "Australia",
+            "country_code": "AU"
+        }
+    ]
+}
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+{
+    "OrganizationId": "TMW",
+    "OrderTypeId": "R",
+    "DeliveryMethodId": "PickUpAtStore",
+    "Source": "Host",
+    "CustomerFirstName": "#{FirstName}",
+    "CustomerLastName": "#{LastName}",
+    "ShipFromLocationId": "5408",
+    "ShipToLocationId": "",
+    "ReturnToLocationId": "5408",
+    "IsReturnLabelRequired": false,
+    "ServiceLevelCode": "UPS_NEXT_DAY_AIR",
+    "CarrierCode": "UPS",
+    "FulfillmentStatusId": "1000.000",
+    "MinStatusId": "1000.000",
+    "MaxStatusId": "1000.000",
+    "FulfillmentId": "#{FulfillmentId}",
+    "DocType": "Customer Order",
+    "DestinationAction": "",
+    "ShippedDate": null,
+    "Priority": "201922229000",
+    "IsGift": true,
+    "IsVASRequired": false,
+    "FulfillmentReasonId": "",
+    "ContainsAlert": false,
+    "ContainsInstruction": true,
+    "FulfillmentLine": [
+        {
+            "FulfillmentLineId": "1",
+            "FulfillmentLineStatusId": "1000.000",
+            "ItemId": "TMW10CK40101",
+            "ItemDescription": "",
+            "UPC": "",
+            "Style": "",
+            "Color": "",
+            "Size": "",
+            "OrderedQty": 1,
+            "PickedQty": null,
+            "PackedQty": null,
+            "ShippedQty": null,
+            "ReceivedQty": null,
+            "CancelledQty": null,
+            "QuantityUom": "U",
+            "IsSerialNumberRequired": false,
+            "SerialNumbers": null,
+            "OrderId": "#{OrderId}",
+            "OrderLineId": "1",
+            "IsGift": false,
+            "GiftCardNumber": null,
+            "GiftCardValue": null,
+            "IsHazmat": false,
+            "AllocationId": null,
+            "AllocationSourceId": null,
+            "AllocationSourceLineId": null,
+            "AllocationSourceType": null,
+            "PipelineId": "FULFILLMENT_EXECUTION",
+            "FulfillmentLineInstruction": [
+                {
+                    "FulfillmentLineInstructionId": "1",
+                    "InstructionText": "Remove security tag",
+                    "InstructionTypeId": "2000.000",
+                    "InstructionSeq": "1"
+                }
+            ]
+        }
+    ],
+    "FulfillmentAddress": [
+        {
+            "Address": {
+                "Email": "#{Email}",
+                "FirstName": "#{FirstName}",
+                "Address1": "2300 Windy Ridge Pkwy SE",
+                "Address2": "10th Floor",
+                "PostalCode": "30339",
+                "City": "Atlanta",
+                "County": "Cobb",
+                "State": "GA",
+                "Country": "US",
+                "Phone": "6785796865",
+                "LastName": "#{LastName}"
+            },
+            "AddressTypeId": {
+                "AddressTypeId": "Shipping"
+            },
+            "FulfillmentAddressId": "1"
+        }
+    ]
+}

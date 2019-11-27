@@ -1,0 +1,9 @@
+{
+  "login_username" : "id, login-username",
+  "login_password" : "id, login-password",
+  "login_button" : "id, login-submit",
+  "LDAP_username": "id, USER",
+  "LDAP_password": "id, PASSWORD",
+  "LDAP_login_button": "id, Login",
+  "Please_Login_header": "xpath, //h3[@id='headerLogin']"
+}
